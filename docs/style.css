@@ -1,0 +1,135 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+}
+#image-section{
+   height: 100%;
+   width: 40%;
+   background-color: #F2D083;
+}
+#art{
+   height: 50%;
+   width: 100%;
+}
+#logo{
+   height: 70px;
+   width: 120px;
+   mix-blend-mode: multiply;
+   margin-top: 6vmin;
+   padding-left: 7vmin;
+}
+#image-section h1{
+   color: rgb(48, 46, 38);
+   font-size: 4.5vmin;
+   padding-left: 8vmin;
+   margin-bottom: 6vmin;
+}
+#image-section p{
+   padding-left: 8vmin;
+   color: rgb(48, 46, 38);
+   margin-top: 9vmin;
+}
+#SignUp-Section{
+   height: 100%;
+   width: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1vmin 2vmin;
+   box-sizing: border-box;
+   padding: 0.5vmin;
+}
+#SignUp-Section button{
+   height: 7vmin;
+   width: 27vmin;
+   border-radius: 8px;
+   background-color:  rgb(247, 23, 146);
+   color: aliceblue;
+   font-size: 3vmin;
+   font-weight: bolder;
+}
+.SignUp-form{
+   width: 65%;
+   height: 80%;
+   /* background-color: #F2D083; */
+   padding: 4vmin;
+}
+.SignUp-form input{
+   height: 5.5vmin;
+   border-radius: 10%;
+  background-color: rgba(212, 205, 205, 0.815);
+}
+.SignUp-form h2{
+   font-size: 4.5vmin;
+   margin-bottom: 4vmin;
+}
+.SignUp-form p{
+   font-size: 2vmin;
+}
+.text{
+   color:rgb(18, 29, 187)
+}
+#SignInPage{
+   text-decoration: none;
+}
+.member{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   color: #ffffffab;
+   font-size: 14px; 
+}
+.member p{
+   color: rgb(48, 46, 38);
+}
+#name-container{
+   width: 100%;
+   display: flex;
+   /* background-color: aqua; */
+   margin-bottom: -20px;
+}
+form .error {
+   color: red;
+   font-size: 14px;
+   margin-top: 5px;
+}
+
+@media (max-width:700px) {
+   body{
+      display: flex;
+      flex-direction: column;
+   }
+   #image-section{
+      width: 100%;
+      margin: 0;
+   }
+   #SignUp-Section{
+      width: 100%;
+      display: flex;
+      align-items: normal;
+   }
+   .SignUp-form{
+      margin-top: -5vmax;
+      margin: 3vmin 1.5vmin;
+      width: 75%;
+   height: 80%;
+   }
+   .SignUp-form input{
+      height: 9vmin;
+   }
+   .SignUp-form p{
+      font-size: 10px;
+   }
+   .SignUp-form h2{
+      font-size: 6vmin;
+   }
+   #checkbox{
+   font-size: 14px;
+}
+}
